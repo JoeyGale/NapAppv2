@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.joeygale.napapp.CreateOrUpdateScheduleScreen">
+    tools:context="com.example.joeygale.napapp.TakeANap">
 
     <RelativeLayout
         android:layout_width="388dp"
@@ -27,12 +27,11 @@
             android:id="@+id/btnStartNap"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:text="Start Nap"
             android:textSize="36sp"
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="490dp"
-            android:layout_below="@+id/tpPickTime"
+            android:layout_below="@+id/txtNapQuality"
             android:layout_centerHorizontal="true" />
 
         <TextClock
@@ -49,7 +48,7 @@
             android:id="@+id/napQuality"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="28sp"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="102dp"
             tools:layout_editor_absoluteY="414dp" />
 
@@ -62,8 +61,7 @@
             tools:layout_editor_absoluteX="123dp"
             tools:layout_editor_absoluteY="69dp"
             android:layout_below="@+id/textView2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="14dp" />
+            android:layout_alignStart="@+id/currentTime" />
 
         <TextView
             android:id="@+id/textView2"
@@ -73,9 +71,9 @@
             android:textSize="30sp"
             tools:layout_editor_absoluteX="22dp"
             tools:layout_editor_absoluteY="16dp"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="19dp"
             android:layout_alignParentTop="true"
-            android:layout_alignEnd="@+id/txtCurrentTime" />
+            android:layout_alignStart="@+id/txtCurrentTime" />
 
         <TimePicker
             android:id="@+id/tpPickTime"

@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TakeANap" />
-        <activity android:name=".SeeNotes"></activity>
+        <activity android:name=".SeeNotes" />
+        <activity android:name=".NapTimeTimer"></activity>
     </application>
 
 </manifest>

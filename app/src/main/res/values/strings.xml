@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NapApp</string>
+    <string name="txtTitle">NapApp</string>
+    <string name="txtCreateOrUpdateSchedule">Create / Update Schedule</string>
+    <string name="txtTakeNap">Take A Nap</string>
+    <string name="txtAuthors">By: Joey Gale and Nathan Hawkins</string>
+    <string name="btnStart">Start</string>
+    <string name="btnTurnOff">Turn Off</string>
+    <string name="btnDidntSleep">Didn\'t even sleep</string>
+    <string name="btnWorseThanBefore">I\'m worse than before I started.</string>
+    <string name="btnDecent">Decent</string>
+    <string name="btnGreat">Great</string>
+    <string name="btnSeeNotes">See Notes</string>
+    <string name="txtAddNotes">Say something about your nap</string>
+    <string name="btnCancel">Cancel</string>
+</resources>

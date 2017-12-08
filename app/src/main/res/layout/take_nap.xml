@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joeygale.napapp.CreateOrUpdateScheduleScreen">
+
+    <RelativeLayout
+        android:layout_width="388dp"
+        android:layout_height="572dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-21dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a time for the nap to end"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="190dp"
+            android:layout_below="@+id/currentTime"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btnStartNap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Start Nap"
+            android:textSize="36sp"
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="490dp"
+            android:layout_below="@+id/tpPickTime"
+            android:layout_centerHorizontal="true" />
+
+        <TextClock
+            android:id="@+id/currentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="42sp"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="118dp"
+            android:layout_below="@+id/txtCurrentTime"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/napQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="414dp" />
+
+        <TextView
+            android:id="@+id/txtCurrentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Time"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="123dp"
+            tools:layout_editor_absoluteY="69dp"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take A Nap"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_marginTop="22dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/txtCurrentTime" />
+
+        <TimePicker
+            android:id="@+id/tpPickTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginRight="-30dp"
+            android:timePickerMode="spinner"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txtNapQuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tpPickTime"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

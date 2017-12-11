@@ -13,16 +13,16 @@
         tools:layout_editor_absoluteY="8dp">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnSeeNotes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/btnTakeANap"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="35dp"
             android:text="@string/btnSeeNotes"
             android:textSize="24sp"
             tools:layout_editor_absoluteX="127dp"
-            tools:layout_editor_absoluteY="420dp"
-            android:layout_below="@+id/btnTakeANap"
-            android:layout_centerHorizontal="true" />
+            tools:layout_editor_absoluteY="420dp" />
 
         <Button
             android:id="@+id/btnTakeANap"
